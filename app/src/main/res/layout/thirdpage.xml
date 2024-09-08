@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/third"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/pic_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/welcome_back_nsduthi"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:letterSpacing="0.03"
+                    android:textSize="35sp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="30dp"/>
+            </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="280dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/search_your_interest"
+                android:background="@drawable/bg"
+                android:layout_marginTop="200dp"
+                android:width="280dp"
+                android:height="40dp"
+                android:layout_marginStart="60dp"/>
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="18dp"
+                android:src="@drawable/search1"
+                android:layout_marginStart="310dp"
+                android:layout_marginTop="210dp"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:background="@drawable/quote"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_marginEnd="10dp">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="40dp"
+
+                android:text="@string/start_learning_newstuff"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/offlines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F0BC83"
+            android:text="@string/offline_courses_section"
+            android:layout_gravity="center"
+            android:width="300dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:id="@+id/courses_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F0BC83"
+            android:text="@string/courses_in_progress"
+            android:layout_gravity="center"
+            android:width="300dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/location"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="160dp"
+            android:src="@drawable/loc"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
