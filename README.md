@@ -30,8 +30,13 @@ The **Learning App** is an Android application developed using **Android Studio*
   <img src="image1.jpg" width="300" />
   
   <img src="image2.jpg" width="300" />
-  <br>
+  
   <img src="image3.jpg" width="300" />
+
+  <img src="image4.jpg" width="300" />
+  <img src="image5.jpg" width="300" />
+  <img src="image6.jpg" width="300" />
+  
   
 </p>
 
