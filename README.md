@@ -32,9 +32,10 @@ The **Learning App** is an Android application developed using **Android Studio*
   <img src="image2.jpg" width="300" />
   
   <img src="image3.jpg" width="300" />
+  <br>
   ### 🟢 Splash Screen
-This screen displays the app logo **Exam Edge** along with the tagline:
-*Learn more skills, be more competitive*.
+  This screen displays the app logo **Exam Edge** along with the tagline:
+  *Learn more skills, be more competitive*.
 
 
 
@@ -52,7 +53,7 @@ allows searching for interests, starting new courses, and accessing offline cour
 
 
 
-
+ <br>
   <img src="image4.jpg" width="300" />
   <img src="image5.jpg" width="300" />
   <img src="image6.jpg" width="300" />
