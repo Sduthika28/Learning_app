@@ -24,6 +24,17 @@ The **Learning App** is an Android application developed using **Android Studio*
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="image1.jpg" width="300" />
+  <br>
+  <img src="image2.jpg" width="300" />
+  <br>
+  <img src="image3.jpg" width="300" />
+</p>
+
+
 
 
 
